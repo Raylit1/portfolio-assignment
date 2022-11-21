@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+
+body{
+
+    background-image: url(images/portfolio.image.4.jpg);
+    margin: 100px;
+    padding: 0;
+
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+}
+.image_class{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+     
+}
+
+.Afolake{
+    border-radius: 250px 50px;
+    border: none;
+}
+
+
+ .parent{
+     display: flex;
+     align-items: center;
+
+ }
+
+
+ .name1{
+     font-size: 32px;
+    
+ }
+
+ .name2{
+     font-size: 18px;
+     padding-right: 20px;
+ }
+
+
+main{
+    margin: 0;
+    padding: 0;
+
+}
+
+.ul_list{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    }
+
+ul li{
+
+    padding: 10px;
+    list-style: none;
+    font-size: 18px;
+}
+    
+ul li a{
+    text-decoration: none;
+    color: rgb(228, 208, 176);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color:orange;
+}
+
+.name{
+    color: rgb(228, 208, 176);
+   margin-left: 50px;
+}
+
+.name3{
+    color: rgb(228, 208, 176);
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    
+}
+
+.container-2{
+    color: white;
+
+    display: flex;
+
+}
+
+.About_me{
+    margin-top: 12%;
+    width: 50%;
+}
+
+.box {
+   
+    align-items: center;
+    min-height: 10vh;
+    gap: 30px;
+    
+}
+
+
+.list{
+    display: flex;
+    
+}
+
+
+.box li{
+    
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 8px;
+    background: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(4px 4px 10px rgb(235, 200, 5));
+    box-shadow: inset 5px 5px 5px rgb(177, 153, 22), 15px 25px 10pxrgb(177, 153, 22)
+                15px 20px 20px rgb(177, 153, 22) 
+                inset -10px -10px 15px gold;
+}
+
+
+
+
+
+
+   
